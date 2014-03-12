@@ -32,6 +32,8 @@ namespace Prob_riseAndFall
                     Console.Write(arr[i, 0] + " " + arr[i, 1]);
                 else
                     Console.WriteLine(arr[i, 0] + " " + arr[i, 1]);
+                    
+            Console.ReadKey();
         }
     }
 }
